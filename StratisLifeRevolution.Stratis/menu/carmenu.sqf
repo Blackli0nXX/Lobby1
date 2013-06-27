@@ -7,6 +7,7 @@ if(side player == west) then
 	lbAdd[11121,"Hunter : 10000"];
 	lbAdd[11121,"Ifrit HMG : 20000"];
 	lbAdd[11121,"Hunter HMG : 20000"];
+	lbAdd[11121,"Strider : 13000"];
 };
 if(side player == civilian) then
 {
