@@ -6,7 +6,7 @@ class Shop1Menu
 	controlsBackground[] = {Background};
 	objects[] = {};
 	controls[] = {MyMoney,ItemList,BuyItem,Close};
-	
+
 	class Background : BaseRscBox
 	{
 		idc = -1;
@@ -24,7 +24,7 @@ class Shop1Menu
 		x = 0.65; y = 0.2;
 		w = 0.5;
 	};
-	class ItemList : BaseRscComboBox 
+	class ItemList : BaseRscComboBox
 	{
 		idc = 11188;
 		moving = 1;
@@ -60,7 +60,7 @@ class Shop2Menu
 	controlsBackground[] = {Background};
 	objects[] = {};
 	controls[] = {MyMoney,ItemList,BuyItem,Close};
-	
+
 	class Background : BaseRscBox
 	{
 		idc = -1;
@@ -78,7 +78,7 @@ class Shop2Menu
 		x = 0.65; y = 0.2;
 		w = 0.5;
 	};
-	class ItemList : BaseRscComboBox 
+	class ItemList : BaseRscComboBox
 	{
 		idc = 11191;
 		moving = 1;
@@ -106,6 +106,60 @@ class Shop2Menu
 	};
 };
 
+class ClothesMenu
+{
+	idd = -1;
+	movingEnable = true;
+	enableSimulation = true;
+	controlsBackground[] = {Background};
+	objects[] = {};
+	controls[] = {MyMoney,ItemList,BuyItem,Close};
+
+	class Background : BaseRscBox
+	{
+		idc = -1;
+		moving = 1;
+		colorBackground[] = { 0, 0, 0, 0.8 };
+		x = 0.640; y = 0.19;
+		w = 0.520; h = 0.470;
+	};
+	class MyMoney : BaseRscSingleText
+	{
+		idc = 11187;
+		moving = 1;
+		colorBackground[] = { 0.7, 0.7, 0.7, 0.8 };
+		sizeEx = 0.04;
+		x = 0.65; y = 0.2;
+		w = 0.5;
+	};
+	class ItemList : BaseRscComboBox
+	{
+		idc = 11188;
+		moving = 1;
+		colorSelectBackground[] = { 0.6, 0.6, 0.6, 0.7 };
+		colorBackground[] = { 0.7, 0.7, 0.7, 0.8 };
+		sizeEx = 0.04;
+		x = 0.65; y = 0.275;
+		w = 0.5;
+	};
+	class BuyItem : BaseRscButton
+	{
+		idc = 11189;
+		text = "Buy Item";
+		action = "execVM 'items\clothesbuy.sqf'";
+		x = 0.65; y = 0.5;
+		w = 0.5;
+	};
+	class Close : BaseRscButton
+	{
+		idc = -1;
+		text = "Close";
+		action = "closeDialog 0";
+		x = 0.65; y = 0.575;
+		w = 0.5;
+	};
+};
+
 class ItemMenu
 {
 	idd = -1;
@@ -114,7 +168,7 @@ class ItemMenu
 	controlsBackground[] = {Background};
 	objects[] = {};
 	controls[] = {Title,Shop1Menu,Shop2Menu,Close};
-	
+
 	class Background : BaseRscBox
 	{
 		idc = -1;

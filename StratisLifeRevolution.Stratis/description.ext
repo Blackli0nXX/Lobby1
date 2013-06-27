@@ -10,8 +10,8 @@ class Header
 	maxPlayers=100;
 };
 author="1stAEU";
-OnLoadName = "Stratis Life - Revolution 0.01";
-OnLoadMission = "This is a RP mission. Play by the rules and have fun!";
+OnLoadName = "Stratis Life-Revolution";
+OnLoadMission = "Build 0.02. Play by the rules and have fun!";
 
 #include "dialog\common.hpp"
 #include "dialogbase.hpp"

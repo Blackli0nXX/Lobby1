@@ -17,10 +17,4 @@ if(side player == civilian) then
 	lbAdd[11188,"First AidKit : $1500"];
 	lbAdd[11188,"NV Goggles : $17500"];
 	lbAdd[11188,"Backpack : $5000"];
-	lbAdd[11188,"Blue Cap : $1000"];
-	lbAdd[11188,"Red Cap : $1000"];
-	lbAdd[11188,"Khaki Cap : $1000"];
-	lbAdd[11188,"Black Shades : $800"];
-	lbAdd[11188,"Blue Shades : $800"];
-	lbAdd[11188,"Sport Shades : $900"];
 };
