@@ -13,6 +13,4 @@ hint format["You bought a Pistol for 10000 $! You got %1 $ left!",(player getVar
 } else {
 hint "You need to be a civilian to buy this weapon";
 };
-//github
-//testing after the right squiggly bracket
 
