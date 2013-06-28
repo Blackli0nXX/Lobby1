@@ -11,7 +11,7 @@ class Header
 };
 author="1stAEU";
 OnLoadName = "Stratis Life-Revolution";
-OnLoadMission = "Build 0.02. Play by the rules and have fun!";
+OnLoadMission = "Build 0.03. Play by the rules and have fun!";
 
 #include "dialog\common.hpp"
 #include "dialogbase.hpp"

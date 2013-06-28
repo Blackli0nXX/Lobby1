@@ -2385,6 +2385,7 @@ class Mission
 					id=104;
 					side="CIV";
 					vehicle="C_man_polo_2_F";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					ammo=0;
