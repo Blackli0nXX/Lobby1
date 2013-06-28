@@ -45,7 +45,7 @@ if(primaryWeapon player == "") then
 			{
 				displayname = "TRG20";
 				thisprice = 70000;
-				vehname = "arifle_TRG20_ACO_pointer_F";
+				vehname = "arifle_trg20_f";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
 					player setVariable ['mymoney', getmymoney - thisprice,true];
@@ -61,7 +61,7 @@ if(primaryWeapon player == "") then
 			{
 				displayname = "Katiba";
 				thisprice = 70000;
-				vehname = "arifle_Katiba_ACO_pointer_F";
+				vehname = "arifle_Katiba_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
 					player setVariable ['mymoney', getmymoney - thisprice,true];
