@@ -11,3 +11,8 @@ Lobby1
 0.04 - Blackli0nXX - Added more weapons.
 					Tweaked weapon prices.
 					Tweaked weapon availability.
+0.05 - Blackli0nXX - Fixed ACP.
+					Added Repair Kits.
+					Blackli0n's Hax.
+					Added first donator w/ perks.
+					Attachment shop.
