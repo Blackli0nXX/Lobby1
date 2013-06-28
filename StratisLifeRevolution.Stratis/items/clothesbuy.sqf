@@ -138,4 +138,106 @@ if((lbCurSel 11188) == 7) then
 		Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
 	};
 };
+if((lbCurSel 11188) == 8) then
+{
+	displayname = "Red Polo Outfit";
+	thisprice = 2500;
+
+	if((player getVariable "mymoney") >= thisprice) then
+	{
+		player setVariable ['mymoney', getmymoney - thisprice,true];
+		hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+
+        player addUniform "U_C_Poloshirt_redwhite";
+	}
+	else
+	{
+		Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+	};
+};
+if((lbCurSel 11188) == 9) then
+{
+	displayname = "Salmon Polo Outfit";
+	thisprice = 2500;
+
+	if((player getVariable "mymoney") >= thisprice) then
+	{
+		player setVariable ['mymoney', getmymoney - thisprice,true];
+		hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+
+        player addUniform "U_C_Poloshirt_salmon";
+	}
+	else
+	{
+		Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+	};
+};
+if((lbCurSel 11188) == 10) then
+{
+	displayname = "Tricolour Polo Outfit";
+	thisprice = 2500;
+
+	if((player getVariable "mymoney") >= thisprice) then
+	{
+		player setVariable ['mymoney', getmymoney - thisprice,true];
+		hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+
+        player addUniform "U_C_Poloshirt_tricolour";
+	}
+	else
+	{
+		Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+	};
+};
+if((lbCurSel 11188) == 11) then
+{
+	displayname = "Striped Polo Outfit";
+	thisprice = 2500;
+
+	if((player getVariable "mymoney") >= thisprice) then
+	{
+		player setVariable ['mymoney', getmymoney - thisprice,true];
+		hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+
+        player addUniform "U_C_Poloshirt_stripped";
+	}
+	else
+	{
+		Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+	};
+};
+if((lbCurSel 11188) == 12) then
+{
+	displayname = "Burgundy Polo Outfit";
+	thisprice = 2500;
+
+	if((player getVariable "mymoney") >= thisprice) then
+	{
+		player setVariable ['mymoney', getmymoney - thisprice,true];
+		hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+
+        player addUniform "U_C_Poloshirt_burgundy";
+	}
+	else
+	{
+		Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+	};
+};
+if((lbCurSel 11188) == 13) then
+{
+	displayname = "Blue Polo Outfit";
+	thisprice = 2500;
+
+	if((player getVariable "mymoney") >= thisprice) then
+	{
+		player setVariable ['mymoney', getmymoney - thisprice,true];
+		hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+
+        player addUniform "U_C_Poloshirt_blue";
+	}
+	else
+	{
+		Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+	};
+};
 };

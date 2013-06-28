@@ -11,4 +11,10 @@ if(side player == civilian) then
 	lbAdd[11188,"Sport Shades : $900"];
 	lbAdd[11188,"Rangemaster Belt : $2000"];
 	lbAdd[11188,"Bandolier : $2500"];
+	lbAdd[11188,"Red Polo Outfit : $500"];
+	lbAdd[11188,"Salmon Polo Outfit : $500"];
+	lbAdd[11188,"Tricolour Polo Outfit : $500"];
+	lbAdd[11188,"Striped Polo Outfit : $500"];
+	lbAdd[11188,"Burgundy Polo Outfit : $500"];
+	lbAdd[11188,"Blue Polo Outfit : $500"];
 };
