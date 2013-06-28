@@ -203,7 +203,7 @@ class IllegalWeaponMenu
 	class PistolMenu : BaseRscButton
 	{
 		idc = 11177;
-		text = "Pistols";
+		text = "Secondary";
 		action = "execVM 'weapons\illegalpistolmenu.sqf'";
 		x = 0.65; y = 0.275;
 		w = 0.5;
@@ -211,7 +211,7 @@ class IllegalWeaponMenu
 	class RifleMenu : BaseRscButton
 	{
 		idc = 11178;
-		text = "Rifles";
+		text = "Primary";
 		action = "execVM 'weapons\illegalriflemenu.sqf'";
 		x = 0.65; y = 0.350;
 		w = 0.5;
@@ -265,7 +265,7 @@ class IllegalPistolMenu
 	class BuyWeapon : BaseRscButton
 	{
 		idc = 11170;
-		text = "Buy Pistol";
+		text = "Buy Secondary";
 		action = "execVM 'weapons\illegalpistolbuy.sqf'";
 		x = 0.65; y = 0.5;
 		w = 0.5;
@@ -327,7 +327,7 @@ class IllegalRifleMenu
 	class BuyWeapon : BaseRscButton
 	{
 		idc = 11174;
-		text = "Buy Rifle";
+		text = "Buy Primary";
 		action = "execVM 'weapons\illegalriflebuy.sqf'";
 		x = 0.65; y = 0.5;
 		w = 0.5;

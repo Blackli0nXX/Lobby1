@@ -37,6 +37,70 @@ if(primaryWeapon player == "") then
 					Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
 				};
 			};
+			if((lbCurSel 11173) == 2) then								
+			{
+				displayname = "Vermin";
+				thisprice = 15000;
+				vehname = "SMG_01_F";
+				if((player getVariable "mymoney") >= thisprice) then
+				{
+					player setVariable ['mymoney', getmymoney - thisprice,true];
+					hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+					player addweapon vehname;
+				}
+				else
+				{
+					Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+				};
+			};
+			if((lbCurSel 11173) == 3) then								
+			{
+				displayname = "Mk20";
+				thisprice = 30000;
+				vehname = "arifle_Mk20_F";
+				if((player getVariable "mymoney") >= thisprice) then
+				{
+					player setVariable ['mymoney', getmymoney - thisprice,true];
+					hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+					player addweapon vehname;
+				}
+				else
+				{
+					Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+				};
+			};
+			if((lbCurSel 11173) == 4) then								
+			{
+				displayname = "LRR";
+				thisprice = 80000;
+				vehname = "srifle_LRR_F";
+				if((player getVariable "mymoney") >= thisprice) then
+				{
+					player setVariable ['mymoney', getmymoney - thisprice,true];
+					hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+					player addweapon vehname;
+				}
+				else
+				{
+					Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+				};
+			};
+			if((lbCurSel 11173) == 5) then								
+			{
+				displayname = "Mk200";
+				thisprice = 50000;
+				vehname = "LMG_Mk200_F";
+				if((player getVariable "mymoney") >= thisprice) then
+				{
+					player setVariable ['mymoney', getmymoney - thisprice,true];
+					hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+					player addweapon vehname;
+				}
+				else
+				{
+					Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+				};
+			};
 		};
 	
 		if(side player == civilian) then
@@ -59,9 +123,9 @@ if(primaryWeapon player == "") then
 			};
 			if((lbCurSel 11173) == 1) then
 			{
-				displayname = "Katiba";
-				thisprice = 70000;
-				vehname = "arifle_Katiba_F";
+				displayname = "Vermin";
+				thisprice = 55000;
+				vehname = "SMG_01_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
 					player setVariable ['mymoney', getmymoney - thisprice,true];

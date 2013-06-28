@@ -35,11 +35,27 @@ if(handgunWeapon player == "") then
 					Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
 				};
 			};
-						if((lbCurSel 11169) == 2) then
+			if((lbCurSel 11169) == 2) then
 			{
 				displayname = "ACP-C2";
 				thisprice = 20000;
 				vehname = "hgun_ACPC2_F";
+				if((player getVariable "mymoney") >= thisprice) then
+				{
+					player setVariable ['mymoney', getmymoney - thisprice,true];
+					hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+					player addweapon vehname;
+				}
+				else
+				{
+					Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+				};
+			};
+			if((lbCurSel 11169) == 3) then
+			{
+				displayname = "Titan";
+				thisprice = 250000;
+				vehname = "launch_B_Titan_short_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
 					player setVariable ['mymoney', getmymoney - thisprice,true];

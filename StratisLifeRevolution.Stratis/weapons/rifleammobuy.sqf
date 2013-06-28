@@ -23,9 +23,77 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 1) then
 		{
 			displayname = "M14 Sniper mag";
-			thisprice = 400;
+			thisprice = 500;
 			amount = 1;
 			vehname = "20Rnd_762x51_Mag";
+			if((player getVariable "mymoney") >= thisprice) then
+			{
+				player setVariable ['mymoney', getmymoney - thisprice,true];
+				hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+				player addMagazine vehname;
+			}
+			else
+			{
+				Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+			};
+		};
+		if((lbCurSel 11173) == 2) then
+		{
+			displayname = "Vermin mag";
+			thisprice = 200;
+			amount = 1;
+			vehname = "30Rnd_45ACP_Mag_SMG_01";
+			if((player getVariable "mymoney") >= thisprice) then
+			{
+				player setVariable ['mymoney', getmymoney - thisprice,true];
+				hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+				player addMagazine vehname;
+			}
+			else
+			{
+				Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+			};
+		};
+		if((lbCurSel 11173) == 3) then
+		{
+			displayname = "Mk20 mag";
+			thisprice = 600;
+			amount = 1;
+			vehname = "30Rnd_556x45_Stanag";
+			if((player getVariable "mymoney") >= thisprice) then
+			{
+				player setVariable ['mymoney', getmymoney - thisprice,true];
+				hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+				player addMagazine vehname;
+			}
+			else
+			{
+				Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+			};
+		};
+		if((lbCurSel 11173) == 4) then
+		{
+			displayname = "LRR mag";
+			thisprice = 1600;
+			amount = 1;
+			vehname = "7Rnd_408_Mag";
+			if((player getVariable "mymoney") >= thisprice) then
+			{
+				player setVariable ['mymoney', getmymoney - thisprice,true];
+				hint format['You bought a %1 for %2$! You have %3 $ left!',displayname,thisprice,(player getVariable 'mymoney')];
+				player addMagazine vehname;
+			}
+			else
+			{
+				Hint format ["you have %1$ and need %2$",(player getVariable 'mymoney'),(thisprice)];
+			};
+		};
+		if((lbCurSel 11173) == 5) then
+		{
+			displayname = "Mk200 mag";
+			thisprice = 1000;
+			amount = 1;
+			vehname = "200Rnd_65x39_cased_Box";
 			if((player getVariable "mymoney") >= thisprice) then
 			{
 				player setVariable ['mymoney', getmymoney - thisprice,true];
@@ -60,10 +128,10 @@ if((player getVariable "riflelicense") >= 1) then
 		};
 		if((lbCurSel 11173) == 1) then
 		{
-			displayname = "Katiba mag";
-			thisprice = 7500;
+			displayname = "Vermin mag";
+			thisprice = 6000;
 			amount = 1;
-			vehname = "30Rnd_65x39_caseless_green";
+			vehname = "30Rnd_45ACP_Mag_SMG_01";
 			if((player getVariable "mymoney") >= thisprice) then
 			{
 				player setVariable ['mymoney', getmymoney - thisprice,true];
