@@ -163,7 +163,7 @@ if ( [player] call LIFE_fnc_isSwat ) then
         
         rabbits = player addAction ["Pickup rabbit","farming\pickuprabbit.sqf",[],7,true,true,"","player in list trgRabbit"];
         /* ---- End of Collecting Actions ---- */
-        
+        player addAction ["Repair","repairkit.sqf","",1,true,true,"","(cursorTarget isKindOf 'LandVehicle' || cursorTarget isKindOf 'Tank' || cursorTarget isKindOf 'Air' || cursorTarget isKindOf 'Ship') && getDammage cursorTarget > 0.001 && player distance cursorTarget < 4"];
         /* ---- Start of Vehicle Repair Actions ---- */
         // Car Repair
         for "_i" from 0 to (count (allServicingTriggers select 0)) - 1 do

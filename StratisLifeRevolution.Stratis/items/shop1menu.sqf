@@ -9,6 +9,7 @@ if(side player == west) then
 	lbAdd[11188,"Backpack : $5000"];
 	lbAdd[11188,"Cap with headset : $300"];
 	lbAdd[11188,"Medikit : $500"];
+	lbAdd[11188,"ToolKit : $5000"];
 };
 
 if(side player == civilian) then
@@ -17,4 +18,5 @@ if(side player == civilian) then
 	lbAdd[11188,"First AidKit : $1500"];
 	lbAdd[11188,"NV Goggles : $17500"];
 	lbAdd[11188,"Backpack : $5000"];
+	lbAdd[11188,"ToolKit : $5000"];
 };
