@@ -9,7 +9,7 @@ if(primaryWeapon player == "") then
 			{
 				displayname = "MXC";
 				thisprice = 20000;
-				vehname = "arifle_MXC_Holo_pointer_F";
+				vehname = "arifle_MXC_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
 					player setVariable ['mymoney', getmymoney - thisprice,true];
@@ -25,7 +25,7 @@ if(primaryWeapon player == "") then
 			{
 				displayname = "M14 Sniper";
 				thisprice = 35000;
-				vehname = "srifle_EBR_MRCO_pointer_F";
+				vehname = "srifle_EBR_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
 					player setVariable ['mymoney', getmymoney - thisprice,true];

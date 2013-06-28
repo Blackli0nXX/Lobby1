@@ -8,7 +8,7 @@ if((player getVariable "riflelicense") >= 1) then
 			displayname = "MXC mag";
 			thisprice = 400;
 			amount = 1;
-			vehname = "30rnd_556x45_stanag";
+			vehname = "30Rnd_65x39_caseless_mag";
 			if((player getVariable "mymoney") >= thisprice) then
 			{
 				player setVariable ['mymoney', getmymoney - thisprice,true];

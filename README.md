@@ -5,3 +5,4 @@ Lobby1
 					Fixed errors at startup.
 					Cops can buy Strider.
 0.03 - Blackli0nXX - RIfles now spawn stock.
+					Fixed MXC Ammo
