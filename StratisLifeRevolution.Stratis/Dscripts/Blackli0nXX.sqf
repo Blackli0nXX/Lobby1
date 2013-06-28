@@ -1,5 +1,7 @@
 removeAllItems player;
 
+player addUniform "U_C_Poloshirt_blue";
+player addHeadGear "H_Cap_blu";
 player addVest "V_BandollierB_khk";
 player addBackpack "B_AssaultPack_khk";
 
