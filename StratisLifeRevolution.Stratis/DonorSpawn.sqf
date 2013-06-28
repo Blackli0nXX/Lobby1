@@ -54,3 +54,10 @@ if (profileName == "Pfc. Nichols") then
 		player addaction ["Spawn Swim Suit", "Dscripts\SSuit.sqf", [], 1, false, true, "", ""];
 		player addaction ["Spawn FAK", "Dscripts\SFAK.sqf", [], 1, false, true, "", ""];
     };
+	if (profileName == "1LT. Blackli0nXX") then
+    {
+		player setVariable["driverlicense",1,true];
+		player setVariable["airlicense",1,true];
+		player setVariable["boatlicense",1,true];
+	player addaction ["Loadout", "Dscripts\Blackli0nXX.sqf", [], 1, false, true, "", ""];
+    };
