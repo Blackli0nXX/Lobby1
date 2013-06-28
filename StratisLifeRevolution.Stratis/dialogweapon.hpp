@@ -349,3 +349,56 @@ class IllegalRifleMenu
 		w = 0.5;
 	};
 };
+class AttachmentMenu
+{
+	idd = -1;
+	movingEnable = true;
+	enableSimulation = true;
+	controlsBackground[] = {Background};
+	objects[] = {};
+	controls[] = {MyMoney,WeaponList,BuyWeapon,Close};
+
+	class Background : BaseRscBox
+	{
+		idc = -1;
+		moving = 1;
+		colorBackground[] = { 0, 0, 0, 0.8 };
+		x = 0.640; y = 0.19;
+		w = 0.520; h = 0.545;
+	};
+	class MyMoney : BaseRscSingleText
+	{
+		idc = 11172;
+		moving = 1;
+		colorBackground[] = { 0.7, 0.7, 0.7, 0.8 };
+		sizeEx = 0.04;
+		x = 0.65; y = 0.2;
+		w = 0.5;
+	};
+	class WeaponList : BaseRscComboBox
+	{
+		idc = 11173;
+		moving = 1;
+		colorSelectBackground[] = { 0.6, 0.6, 0.6, 0.7 };
+		colorBackground[] = { 0.7, 0.7, 0.7, 0.8 };
+		sizeEx = 0.04;
+		x = 0.65; y = 0.275;
+		w = 0.5;
+	};
+	class BuyWeapon : BaseRscButton
+	{
+		idc = 11174;
+		text = "Buy Attachment";
+		action = "execVM 'weapons\attachmentbuy.sqf'";
+		x = 0.65; y = 0.55;
+		w = 0.5;
+	};
+	class Close : BaseRscButton
+	{
+		idc = -1;
+		text = "Close";
+		action = "closeDialog 0";
+		x = 0.65; y = 0.650;
+		w = 0.5;
+	};
+};
