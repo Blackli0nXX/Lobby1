@@ -1,0 +1,1 @@
+if ((getPlayerUID player) != "76561198054134145") then { player setPos (getPos tele) };
