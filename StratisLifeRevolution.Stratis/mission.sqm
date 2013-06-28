@@ -58,7 +58,7 @@ class Mission
 	randomSeed=1968423;
 	class Intel
 	{
-		briefingName="Stratis Life - Revolution 0.06";
+		briefingName="Stratis Life - Revolution 0.07";
 		startWind=0.099999994;
 		forecastWind=0.19999999;
 		forecastWaves=0.79999995;
