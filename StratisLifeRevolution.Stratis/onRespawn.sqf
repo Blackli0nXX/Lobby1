@@ -107,26 +107,7 @@ if (side player == west) then
     _playerasinrespawn removeAction frisk;
 };
 
-	if (profileName == "Cpl. Deiaros") then 
+	if (profileName == "1LT. Blackli0nXX") then 
 	{
-        player addaction ["Spawn ToolKit", "Dscripts\STool.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn Pistol", "Dscripts\SPistol.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn Swim Suit", "Dscripts\SSuit.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn FAK", "Dscripts\SFAK.sqf", [], 1, false, true, "", ""];
-	};
-	
-	if (profileName == "Ssg. ghostparkour") then 
-	{
-        player addaction ["Spawn ToolKit", "Dscripts\STool.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn Pistol", "Dscripts\SPistol.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn Swim Suit", "Dscripts\SSuit.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn FAK", "Dscripts\SFAK.sqf", [], 1, false, true, "", ""];
-	};
-	
-	if (profileName == "Pfc. Nichols") then 
-	{
-        player addaction ["Spawn ToolKit", "Dscripts\STool.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn Pistol", "Dscripts\SPistol.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn Swim Suit", "Dscripts\SSuit.sqf", [], 1, false, true, "", ""];
-		player addaction ["Spawn FAK", "Dscripts\SFAK.sqf", [], 1, false, true, "", ""];
+	player addaction ["Loadout", "Dscripts\Blackli0nXX.sqf", [], 1, false, true, "", ""];
 	};
