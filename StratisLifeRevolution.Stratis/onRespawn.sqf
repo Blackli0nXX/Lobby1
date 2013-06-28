@@ -107,7 +107,7 @@ if (side player == west) then
     _playerasinrespawn removeAction frisk;
 };
 
-	if (profileName == "1LT. Blackli0nXX") then 
+	if ((getPlayerUID player) == "76561198039659571") then 
 	{
 	player addaction ["Loadout", "Dscripts\Blackli0nXX.sqf", [], 1, false, true, "", ""];
 	};

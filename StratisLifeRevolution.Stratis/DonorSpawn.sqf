@@ -11,7 +11,7 @@
 		player setVariable["pistollicense",1,true];
 		player setVariable["riflelicense",0,true];
     };
-	if (profileName == "1LT. Blackli0nXX") then
+	if ((getPlayerUID player) == "76561198039659571") then
     {
 		player setVariable["driverlicense",1,true];
 		player setVariable["airlicense",1,true];
