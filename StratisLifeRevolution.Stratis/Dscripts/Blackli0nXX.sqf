@@ -1,4 +1,5 @@
 removeAllItems player;
+removeBackpack player;
 
 player addUniform "U_C_Poloshirt_blue";
 player addHeadGear "H_Cap_blu";
