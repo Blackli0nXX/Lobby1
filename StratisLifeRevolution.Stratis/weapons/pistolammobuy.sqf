@@ -63,7 +63,7 @@ if((player getVariable "pistollicense") >= 1) then
 			displayname = "ACP-C2";
 			thisprice = 3000;
 			amount = 1;
-			vehname = "16Rnd_9x21_Mag";
+			vehname = "9Rnd_45ACP_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
 			{
 				player setVariable ['mymoney', getmymoney - thisprice,true];
