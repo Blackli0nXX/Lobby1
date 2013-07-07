@@ -3287,7 +3287,7 @@ class Mission
 					leader=1;
 					lock="LOCKEDPLAYER";
 					skill=0.60000002;
-					init="if (side player == west) then { this addAction [""Start Checkpoint Duty"",""patrolmission\checkpointduty.sqf""]; }; this allowDamage false; removeAllWeapons this; removeHeadgear this; this stop true; this stop true; this disableAI ""AUTOTARGET""; this disableAI ""TARGET""; this disableAI ""MOVE""; this disableAI ""ANIM""; this disableAI ""FSM""; this enableSimulation false;";
+					init="this addAction [""Start Checkpoint Duty"",""patrolmission\checkpointduty.sqf""]; this allowDamage false; removeAllWeapons this; removeHeadgear this; this stop true; this stop true; this disableAI ""AUTOTARGET""; this disableAI ""TARGET""; this disableAI ""MOVE""; this disableAI ""ANIM""; this disableAI ""FSM""; this enableSimulation false;";
 				};
 			};
 		};
@@ -3307,7 +3307,7 @@ class Mission
 					leader=1;
 					lock="LOCKEDPLAYER";
 					skill=0.60000002;
-					init="if (side player == west) then { this addAction [""Start Checkpoint Duty"",""patrolmission\checkpointduty2.sqf""]; }; this allowDamage false; removeAllWeapons this; removeHeadgear this; this stop true; this stop true; this disableAI ""AUTOTARGET""; this disableAI ""TARGET""; this disableAI ""MOVE""; this disableAI ""ANIM""; this disableAI ""FSM""; this enableSimulation false;";
+					init="this addAction [""Start Checkpoint Duty"",""patrolmission\checkpointduty2.sqf""]; this allowDamage false; removeAllWeapons this; removeHeadgear this; this stop true; this stop true; this disableAI ""AUTOTARGET""; this disableAI ""TARGET""; this disableAI ""MOVE""; this disableAI ""ANIM""; this disableAI ""FSM""; this enableSimulation false;";
 				};
 			};
 		};
