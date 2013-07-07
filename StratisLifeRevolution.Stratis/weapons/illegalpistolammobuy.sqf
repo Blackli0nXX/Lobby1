@@ -5,7 +5,7 @@
 		if((lbCurSel 11169) == 0) then
 		{
 			displayname = "Rook40";
-			thisprice = 3000;
+			thisprice = 20;
 			amount = 1;
 			vehname = "16Rnd_9x21_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -22,7 +22,7 @@
 		if((lbCurSel 11169) == 1) then
 		{
 			displayname = "P07";
-			thisprice = 3000;
+			thisprice = 20;
 			amount = 1;
 			vehname = "16Rnd_9x21_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -40,7 +40,7 @@
 		if((lbCurSel 11169) == 2) then
 		{
 			displayname = "ACP-C2";
-			thisprice = 3000;
+			thisprice = 30;
 			amount = 1;
 			vehname = "9Rnd_45ACP_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -57,7 +57,7 @@
 		if((lbCurSel 11169) == 3) then
 		{
 			displayname = "Titan";
-			thisprice = 37500;
+			thisprice = 500;
 			amount = 1;
 			vehname = "Titan_AP";
 			if((player getVariable "mymoney") >= thisprice) then

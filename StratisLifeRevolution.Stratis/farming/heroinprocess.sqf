@@ -17,5 +17,5 @@ if((player getVariable 'heroinprocesslicense') >= 1) then
 }
 else
 {
-	Hint "You need a Heroin processing license"
+	Hint "You need Heroin processing training"
 };

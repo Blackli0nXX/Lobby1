@@ -41,11 +41,11 @@ else {
 gotfishinv = format [""];
 };
 
-if ((player getVariable "itemapple") > 0) then {
-gotappleinv = format ["<t color='#B5FF8A' size='1'>Apple:</t><t color='#4CCF00' size='1'> %1</t> <br/>", (player getVariable "itemapple")];
+if ((player getVariable "itemtruffle") > 0) then {
+gottruffleinv = format ["<t color='#B5FF8A' size='1'>Truffle:</t><t color='#4CCF00' size='1'> %1</t> <br/>", (player getVariable "itemtruffle")];
 }
 else {
-gotappleinv = format [""];
+gottruffleinv = format [""];
 };
 
 if ((player getVariable "itemwood") > 0) then {
@@ -301,7 +301,7 @@ moneycolorinv, //4
 (player getVariable "mymoney"), //5
 gotnothinginv, //6
 gotfishinv, //7
-gotappleinv, //8
+gottruffleinv, //8
 gotunpheroininv, //9
 gotwhaleinv, //10
 gotunpoilinv, //11

@@ -6,7 +6,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 0) then
 		{
 			displayname = "MXC mag";
-			thisprice = 400;
+			thisprice = 85;
 			amount = 1;
 			vehname = "30Rnd_65x39_caseless_mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -23,7 +23,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 1) then
 		{
 			displayname = "M14 Sniper mag";
-			thisprice = 500;
+			thisprice = 10;
 			amount = 1;
 			vehname = "20Rnd_762x51_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -40,7 +40,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 2) then
 		{
 			displayname = "Vermin mag";
-			thisprice = 200;
+			thisprice = 20;
 			amount = 1;
 			vehname = "30Rnd_45ACP_Mag_SMG_01";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -57,7 +57,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 3) then
 		{
 			displayname = "Mk20 mag";
-			thisprice = 600;
+			thisprice = 20;
 			amount = 1;
 			vehname = "30Rnd_556x45_Stanag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -74,7 +74,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 4) then
 		{
 			displayname = "LRR mag";
-			thisprice = 1600;
+			thisprice = 55;
 			amount = 1;
 			vehname = "7Rnd_408_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -91,7 +91,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 5) then
 		{
 			displayname = "Mk200 mag";
-			thisprice = 1000;
+			thisprice = 110;
 			amount = 1;
 			vehname = "200Rnd_65x39_cased_Box";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -112,7 +112,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 0) then
 		{
 			displayname = "TRG20 mag";
-			thisprice = 7500;
+			thisprice = 20;
 			amount = 1;
 			vehname = "30Rnd_65x39_caseless_mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -129,7 +129,7 @@ if((player getVariable "riflelicense") >= 1) then
 		if((lbCurSel 11173) == 1) then
 		{
 			displayname = "Vermin mag";
-			thisprice = 6000;
+			thisprice = 20;
 			amount = 1;
 			vehname = "30Rnd_45ACP_Mag_SMG_01";
 			if((player getVariable "mymoney") >= thisprice) then

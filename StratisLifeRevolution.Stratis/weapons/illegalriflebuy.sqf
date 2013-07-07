@@ -6,7 +6,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 0) then
 			{
 				displayname = "TRG20";
-				thisprice = 60000;
+				thisprice = 4000;
 				vehname = "arifle_trg20_f";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -22,7 +22,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 1) then
 			{
 				displayname = "Katiba";
-				thisprice = 60000;
+				thisprice = 6000;
 				vehname = "arifle_Katiba_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -38,7 +38,7 @@ if(primaryWeapon player == "") then
 						if((lbCurSel 11173) == 2) then
 			{
 				displayname = "Scorpion";
-				thisprice = 45000;
+				thisprice = 4000;
 				vehname = "SMG_02_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -54,7 +54,7 @@ if(primaryWeapon player == "") then
 						if((lbCurSel 11173) == 3) then
 			{
 				displayname = "Mk20";
-				thisprice = 80000;
+				thisprice = 5000;
 				vehname = "arifle_Mk20_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -70,7 +70,7 @@ if(primaryWeapon player == "") then
 						if((lbCurSel 11173) == 4) then
 			{
 				displayname = "Lynx";
-				thisprice = 150000;
+				thisprice = 24000;
 				vehname = "srifle_GM6_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -86,7 +86,7 @@ if(primaryWeapon player == "") then
 						if((lbCurSel 11173) == 5) then
 			{
 				displayname = "Zafir";
-				thisprice = 100000;
+				thisprice = 9000;
 				vehname = "LMG_Zafir_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{

@@ -8,7 +8,7 @@ if(handgunWeapon player == "") then
 			if((lbCurSel 11169) == 0) then
 			{
 				displayname = "Tazer";
-				thisprice = 5000;
+				thisprice = 800;
 				vehname = "hgun_P07_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -28,7 +28,7 @@ if(handgunWeapon player == "") then
 			if((lbCurSel 11169) == 0) then
 			{
 				displayname = "Rook40";
-				thisprice = 15000;
+				thisprice = 800;
 				vehname = "hgun_Rook40_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -44,7 +44,7 @@ if(handgunWeapon player == "") then
 			if((lbCurSel 11169) == 1) then
 			{
 				displayname = "P07";
-				thisprice = 17500;
+				thisprice = 800;
 				vehname = "hgun_P07_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -60,7 +60,7 @@ if(handgunWeapon player == "") then
 			if((lbCurSel 11169) == 2) then
 			{
 				displayname = "ACP-C2";
-				thisprice = 20000;
+				thisprice = 1300;
 				vehname = "hgun_ACPC2_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{

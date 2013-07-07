@@ -6,7 +6,7 @@ if((player getVariable "pistollicense") >= 1) then
 		if((lbCurSel 11169) == 0) then
 		{
 			displayname = "Tazer";
-			thisprice = 500;
+			thisprice = 10;
 			amount = 1;
 			vehname = "16Rnd_9x21_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -27,7 +27,7 @@ if((player getVariable "pistollicense") >= 1) then
 		if((lbCurSel 11169) == 0) then
 		{
 			displayname = "Rook40";
-			thisprice = 3000;
+			thisprice = 10;
 			amount = 1;
 			vehname = "16Rnd_9x21_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -44,7 +44,7 @@ if((player getVariable "pistollicense") >= 1) then
 		if((lbCurSel 11169) == 1) then
 		{
 			displayname = "P07";
-			thisprice = 3000;
+			thisprice = 10;
 			amount = 1;
 			vehname = "16Rnd_9x21_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -61,7 +61,7 @@ if((player getVariable "pistollicense") >= 1) then
 		if((lbCurSel 11169) == 2) then
 		{
 			displayname = "ACP-C2";
-			thisprice = 3000;
+			thisprice = 15;
 			amount = 1;
 			vehname = "9Rnd_45ACP_Mag";
 			if((player getVariable "mymoney") >= thisprice) then

@@ -5,7 +5,7 @@ if(side player == west) then
 	if((lbCurSel 11191) == 0) then
 	{
 		displayname = "Wetsuit";
-		thisprice = 10000;
+		thisprice = 100;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{
@@ -23,7 +23,7 @@ if(side player == west) then
 	if((lbCurSel 11191) == 1) then
 	{
 		displayname = "Rebreather";
-		thisprice = 7500;
+		thisprice = 8500;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{
@@ -41,7 +41,7 @@ if(side player == west) then
 	if((lbCurSel 11191) == 2) then
 	{
 		displayname = "Goggles";
-		thisprice = 7500;
+		thisprice = 50;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{
@@ -59,7 +59,7 @@ if(side player == west) then
 	if((lbCurSel 11191) == 3) then
 	{
 		displayname = "Diving pack";
-		thisprice = 5000;
+		thisprice = 300;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{
@@ -80,7 +80,7 @@ if(side player == civilian) then
 	if((lbCurSel 11191) == 0) then
 	{
 		displayname = "Wetsuit";
-		thisprice = 10000;
+		thisprice = 100;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{
@@ -97,7 +97,7 @@ if(side player == civilian) then
 	if((lbCurSel 11191) == 1) then
 	{
 		displayname = "Rebreather";
-		thisprice = 7500;
+		thisprice = 8500;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{
@@ -115,7 +115,7 @@ if(side player == civilian) then
 	if((lbCurSel 11191) == 2) then
 	{
 		displayname = "Goggles";
-		thisprice = 7500;
+		thisprice = 50;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{
@@ -133,7 +133,7 @@ if(side player == civilian) then
 	if((lbCurSel 11191) == 3) then
 	{
 		displayname = "Diving pack";
-		thisprice = 5000;
+		thisprice = 300;
 
 		if((player getVariable "mymoney") >= thisprice) then
 		{

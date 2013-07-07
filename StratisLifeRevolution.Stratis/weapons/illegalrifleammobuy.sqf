@@ -4,7 +4,7 @@
 		if((lbCurSel 11173) == 0) then
 		{
 			displayname = "TRG20 mag";
-			thisprice = 6500;
+			thisprice = 40;
 			amount = 1;
 			vehname = "30rnd_556x45_stanag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -21,7 +21,7 @@
 		if((lbCurSel 11173) == 1) then
 		{
 			displayname = "Katiba mag";
-			thisprice = 6500;
+			thisprice = 170;
 			amount = 1;
 			vehname = "30Rnd_65x39_caseless_green";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -38,7 +38,7 @@
 		if((lbCurSel 11173) == 2) then
 		{
 			displayname = "Scorpion mag";
-			thisprice = 5000;
+			thisprice = 40;
 			amount = 1;
 			vehname = "30Rnd_9x21_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -55,7 +55,7 @@
 		if((lbCurSel 11173) == 3) then
 		{
 			displayname = "Mk20 mag";
-			thisprice = 9000;
+			thisprice = 40;
 			amount = 1;
 			vehname = "30Rnd_556x45_Stanag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -72,7 +72,7 @@
 		if((lbCurSel 11173) == 4) then
 		{
 			displayname = "Lynx mag";
-			thisprice = 18000;
+			thisprice = 120;
 			amount = 1;
 			vehname = "5Rnd_127x108_Mag";
 			if((player getVariable "mymoney") >= thisprice) then
@@ -89,7 +89,7 @@
 		if((lbCurSel 11173) == 5) then
 		{
 			displayname = "Zafir mag";
-			thisprice = 10750;
+			thisprice = 180;
 			amount = 1;
 			vehname = "150Rnd_762x51_Box";
 			if((player getVariable "mymoney") >= thisprice) then

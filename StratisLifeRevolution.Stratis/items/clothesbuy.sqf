@@ -5,7 +5,7 @@ if(side player == civilian) then
 if((lbCurSel 11188) == 0) then
 {
 	displayname = "Blue Cap";
-	thisprice = 1000;
+	thisprice = 20;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -22,7 +22,7 @@ if((lbCurSel 11188) == 0) then
 if((lbCurSel 11188) == 1) then
 {
 	displayname = "Red Cap";
-	thisprice = 1000;
+	thisprice = 20;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -39,7 +39,7 @@ if((lbCurSel 11188) == 1) then
 if((lbCurSel 11188) == 2) then
 {
 	displayname = "Khaki Cap";
-	thisprice = 1000;
+	thisprice = 20;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -56,7 +56,7 @@ if((lbCurSel 11188) == 2) then
 if((lbCurSel 11188) == 3) then
 {
 	displayname = "Black Shades";
-	thisprice = 800;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -73,7 +73,7 @@ if((lbCurSel 11188) == 3) then
 if((lbCurSel 11188) == 4) then
 {
 	displayname = "Blue Shades";
-	thisprice = 800;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -90,7 +90,7 @@ if((lbCurSel 11188) == 4) then
 if((lbCurSel 11188) == 5) then
 {
 	displayname = "Sport Shades";
-	thisprice = 900;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -107,7 +107,7 @@ if((lbCurSel 11188) == 5) then
 if((lbCurSel 11188) == 6) then
 {
 	displayname = "Rangemaster Belt";
-	thisprice = 2000;
+	thisprice = 50;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -124,7 +124,7 @@ if((lbCurSel 11188) == 6) then
 if((lbCurSel 11188) == 7) then
 {
 	displayname = "Bandolier";
-	thisprice = 2500;
+	thisprice = 75;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -141,7 +141,7 @@ if((lbCurSel 11188) == 7) then
 if((lbCurSel 11188) == 8) then
 {
 	displayname = "Red Polo Outfit";
-	thisprice = 500;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -158,7 +158,7 @@ if((lbCurSel 11188) == 8) then
 if((lbCurSel 11188) == 9) then
 {
 	displayname = "Salmon Polo Outfit";
-	thisprice = 500;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -175,7 +175,7 @@ if((lbCurSel 11188) == 9) then
 if((lbCurSel 11188) == 10) then
 {
 	displayname = "Tricolour Polo Outfit";
-	thisprice = 500;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -192,7 +192,7 @@ if((lbCurSel 11188) == 10) then
 if((lbCurSel 11188) == 11) then
 {
 	displayname = "Striped Polo Outfit";
-	thisprice = 500;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -209,7 +209,7 @@ if((lbCurSel 11188) == 11) then
 if((lbCurSel 11188) == 12) then
 {
 	displayname = "Burgundy Polo Outfit";
-	thisprice = 500;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -226,7 +226,7 @@ if((lbCurSel 11188) == 12) then
 if((lbCurSel 11188) == 13) then
 {
 	displayname = "Blue Polo Outfit";
-	thisprice = 500;
+	thisprice = 100;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{

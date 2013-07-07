@@ -8,7 +8,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 0) then								
 			{
 				displayname = "MXC";
-				thisprice = 20000;
+				thisprice = 3000;
 				vehname = "arifle_MXC_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -24,7 +24,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 1) then								
 			{
 				displayname = "M14 Sniper";
-				thisprice = 35000;
+				thisprice = 3500;
 				vehname = "srifle_EBR_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -40,7 +40,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 2) then								
 			{
 				displayname = "Vermin";
-				thisprice = 15000;
+				thisprice = 2000;
 				vehname = "SMG_01_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -56,7 +56,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 3) then								
 			{
 				displayname = "Mk20";
-				thisprice = 30000;
+				thisprice = 2500;
 				vehname = "arifle_Mk20_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -72,7 +72,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 4) then								
 			{
 				displayname = "LRR";
-				thisprice = 80000;
+				thisprice = 11000;
 				vehname = "srifle_LRR_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -88,7 +88,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 5) then								
 			{
 				displayname = "Mk200";
-				thisprice = 50000;
+				thisprice = 4000;
 				vehname = "LMG_Mk200_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -108,7 +108,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 0) then
 			{
 				displayname = "TRG20";
-				thisprice = 70000;
+				thisprice = 2000;
 				vehname = "arifle_trg20_f";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -124,7 +124,7 @@ if(primaryWeapon player == "") then
 			if((lbCurSel 11173) == 1) then
 			{
 				displayname = "Vermin";
-				thisprice = 55000;
+				thisprice = 2000;
 				vehname = "SMG_01_F";
 				if((player getVariable "mymoney") >= thisprice) then
 				{

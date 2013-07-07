@@ -426,14 +426,14 @@ class HeroinProMenu
 	};
 };
 
-class AppleSellMenu
+class TruffleSellMenu
 {
 	idd = -1;
 	movingEnable = true;
 	enableSimulation = true;
 	controlsBackground[] = {Background};
 	objects[] = {};
-	controls[] = {MyApple,TextEdit,Sell,Close};
+	controls[] = {MyTruffle,TextEdit,Sell,Close};
 	
 	class Background : BaseRscBox
 	{
@@ -443,7 +443,7 @@ class AppleSellMenu
 		x = 0.640; y = 0.19;
 		w = 0.520; h = 0.320;
 	};
-	class MyApple : BaseRscSingleText
+	class MyTruffle : BaseRscSingleText
 	{
 		idc = 11135;
 		moving = 1;
@@ -464,8 +464,8 @@ class AppleSellMenu
 	class Sell : BaseRscButton
 	{
 		idc = 11137;
-		text = "Sell Apples";
-		action = "execVM 'sell\applesell.sqf'";
+		text = "Sell Truffle";
+		action = "execVM 'sell\trufflesell.sqf'";
 		x = 0.65; y = 0.350;
 		w = 0.5;
 	};
@@ -698,7 +698,7 @@ class MarketMenu
 	enableSimulation = true;
 	controlsBackground[] = {Background};
 	objects[] = {};
-	controls[] = {Title,FishMenu,AppleMenu,WoodMenu,RabbitMenu,Close};
+	controls[] = {Title,FishMenu,TruffleMenu,WoodMenu,RabbitMenu,Close};
 	
 	class Background : BaseRscBox
 	{
@@ -725,11 +725,11 @@ class MarketMenu
 		x = 0.65; y = 0.275;
 		w = 0.5;
 	};
-	class AppleMenu : BaseRscButton
+	class TruffleMenu : BaseRscButton
 	{
 		idc = 11152;
-		text = "Sell Apples";
-		action = "execVM 'menu\applemenu.sqf'";
+		text = "Sell Truffles";
+		action = "execVM 'menu\trufflemenu.sqf'";
 		x = 0.65; y = 0.350;
 		w = 0.5;
 	};

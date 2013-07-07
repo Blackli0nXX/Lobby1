@@ -15,7 +15,7 @@ if(side player == west) then
 if((lbCurSel 11188) == 0) then
 {
 	displayname = "GPS";
-	thisprice = 5000;
+	thisprice = 250;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -33,7 +33,7 @@ if((lbCurSel 11188) == 0) then
 if((lbCurSel 11188) == 1) then
 {
 	displayname = "First AidKit";
-	thisprice = 1500;
+	thisprice = 200;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -53,7 +53,7 @@ if((lbCurSel 11188) == 1) then
 if((lbCurSel 11188) == 2) then
 {
 	displayname = "NV Goggles";
-	thisprice = 17500;
+	thisprice = 8500;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -71,7 +71,7 @@ if((lbCurSel 11188) == 2) then
 if((lbCurSel 11188) == 3) then
 {
 	displayname = "Backpack";
-	thisprice = 5000;
+	thisprice = 300;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -88,7 +88,7 @@ if((lbCurSel 11188) == 3) then
 if((lbCurSel 11188) == 4) then
 {
 	displayname = "Cap with headset";
-	thisprice = 300;
+	thisprice = 150;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -148,7 +148,7 @@ if(side player == civilian) then
 if((lbCurSel 11188) == 0) then
 {
 	displayname = "GPS";
-	thisprice = 5000;
+	thisprice = 250;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -166,7 +166,7 @@ if((lbCurSel 11188) == 0) then
 if((lbCurSel 11188) == 1) then
 {
 	displayname = "First AidKit";
-	thisprice = 1500;
+	thisprice = 200;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{
@@ -186,7 +186,7 @@ if((lbCurSel 11188) == 1) then
 if((lbCurSel 11188) == 2) then
 {
 	displayname = "NV Goggles";
-	thisprice = 10000;
+	thisprice = 8500;
 	if((player getVariable "mymoney") >= thisprice) then
 	{
 		player setVariable ['mymoney', getmymoney - thisprice,true];
@@ -203,7 +203,7 @@ if((lbCurSel 11188) == 2) then
 if((lbCurSel 11188) == 3) then
 {
 	displayname = "Backpack";
-	thisprice = 5000;
+	thisprice = 300;
 
 	if((player getVariable "mymoney") >= thisprice) then
 	{

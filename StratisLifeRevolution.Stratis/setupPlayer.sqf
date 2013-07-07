@@ -38,6 +38,7 @@ if (_state == 1) then
         //act1 = player addaction ["Cop Menu [W.I.P]", "somscripts\menu\open.sqf", [], 1, false, false, "", ""];
         execVM "somscripts\som_init.sqf";
         patrolmission = 0;
+		checkpointduty = 0;
     };
 	if(side player == east) then
     {
@@ -86,7 +87,7 @@ if ( [player] call LIFE_fnc_isSwat ) then
     player setVariable["itemwhale",0,true];
     player setVariable["itemunpheroin",0,true];
     player setVariable["itemproheroin",0,true];
-    player setVariable["itemapple",0,true];
+    player setVariable["itemtruffle",0,true];
     player setVariable["itemfish",0,true];
     player setVariable["itemunpoil",0,true];
     player setVariable["itemprooil",0,true];
@@ -100,15 +101,15 @@ if ( [player] call LIFE_fnc_isSwat ) then
     /*************************************/
     /* Add all the actions to the player */
         /* ---- Start of Collecting Actions ---- */
-        // apples
+        // truffles
         for "_i" from 0 to (count (allCollectingTriggers select 0)) - 1 do
         {
             _selection = 0;
             
-            _params = [ ((allCollectingTriggers select _selection) select _i), 3, 2, applerate, "Gathering Apples...", format["You got %1 Apple!",applerate], "Gather Apples", _selection, _i, "itemapple" ];
+            _params = [ ((allCollectingTriggers select _selection) select _i), 3, 2, trufflerate, "Gathering Truffles...", format["You got %1 Truffle!",trufflerate], "Gather Truffles", _selection, _i, "itemtruffle" ];
             
             _condition = format["player in list ((allCollectingTriggers select %1) select %2)", _selection, _i];
-            (allCollectingActions select _selection) set[_i, player addAction ["Gather Apples", "farming\startCollecting.sqf",_params,7,true,true,"", _condition] ];
+            (allCollectingActions select _selection) set[_i, player addAction ["Gather Truffles", "farming\startCollecting.sqf",_params,7,true,true,"", _condition] ];
         };
         // fishing
         for "_i" from 0 to (count (allCollectingTriggers select 1)) - 1 do

@@ -4,7 +4,7 @@
 			if((lbCurSel 11173) == 0) then
 			{
 				displayname = "6.5mm Sound Suppressor";
-				thisprice = 5000;
+				thisprice = 750;
 				vehname = "muzzle_snds_H";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -20,7 +20,7 @@
 			if((lbCurSel 11173) == 1) then
 			{
 				displayname = "9mm Sound Suppressor";
-				thisprice = 5000;
+				thisprice = 750;
 				vehname = "muzzle_snds_L";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -36,7 +36,7 @@
 			if((lbCurSel 11173) == 2) then
 			{
 				displayname = "7.62mm Sound Suppressor";
-				thisprice = 5000;
+				thisprice = 750;
 				vehname = "muzzle_snds_B";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -52,7 +52,7 @@
 			if((lbCurSel 11173) == 3) then
 			{
 				displayname = "6.5mm LMG Sound Suppressor";
-				thisprice = 5000;
+				thisprice = 750;
 				vehname = "muzzle_snds_H_MG";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -148,7 +148,7 @@
 			if((lbCurSel 11173) == 9) then
 			{
 				displayname = "Flashlight";
-				thisprice = 1500;
+				thisprice = 100;
 				vehname = "acc_flashlight";
 				if((player getVariable "mymoney") >= thisprice) then
 				{
@@ -164,7 +164,7 @@
 			if((lbCurSel 11173) == 10) then
 			{
 				displayname = "IR Laser Pointer";
-				thisprice = 1500;
+				thisprice = 1700;
 				vehname = "acc_pointer_IR";
 				if((player getVariable "mymoney") >= thisprice) then
 				{

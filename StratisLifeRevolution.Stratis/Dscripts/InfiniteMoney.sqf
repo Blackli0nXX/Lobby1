@@ -1,0 +1,1 @@
+player setVariable["bankmoney",99999999999999999999,true];
